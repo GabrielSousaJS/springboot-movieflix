@@ -2,9 +2,12 @@ package com.devsuperior.movieflix.dto;
 
 import com.devsuperior.movieflix.entities.Genre;
 import com.devsuperior.movieflix.entities.Movie;
+import com.devsuperior.movieflix.entities.Review;
 
 import java.io.Serial;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MovieDTO implements Serializable {
     @Serial
